@@ -1,45 +1,88 @@
-Signal-Server
-=================
+# Connexa-Server
 
-Documentation
--------------
+Connexa-Server is the secure, open-source backend powering **Connexa** — Africa’s own end-to-end encrypted messaging platform, built for speed, freedom, and digital sovereignty.
 
-Looking for protocol documentation? Check out the website!
+---
 
-https://signal.org/docs/
+## Documentation
 
-How to Build
-------------
+Looking for protocol or server integration documentation? Visit:
 
-```shell script
-$ ./mvnw clean test
+https://connexa.africa/docs
+
+More technical documentation is coming soon.
+
+---
+
+## 🛠 How to Build
+
+To build and run Connexa-Server:
+
+```bash
+./mvnw clean test
+
 ```
 
-Security
---------
+**Requirements:**
 
-Security issues should be sent to <a href=mailto:security@signal.org>security@signal.org</a>.
+- Java 17+
+- PostgreSQL 13+
+- Maven (or use the included wrapper `mvnw`)
 
-Help
-----
+---
 
-We cannot provide direct technical support. Get help running this software in your own environment in our [unofficial community forum][community forum].
+## Security
 
-Cryptography Notice
--------------------
+To report a vulnerability or cryptographic issue, please email us at:
 
-This distribution includes cryptographic software. The country in which you currently reside may have restrictions on the import, possession, use, and/or re-export to another country, of encryption software.
-BEFORE using any encryption software, please check your country's laws, regulations and policies concerning the import, possession, or use, and re-export of encryption software, to see if this is permitted.
-See <https://www.wassenaar.org/> for more information.
+**security@connexa.africa**
 
-The U.S. Government Department of Commerce, Bureau of Industry and Security (BIS), has classified this software as Export Commodity Control Number (ECCN) 5D002.C.1, which includes information security software using or performing cryptographic functions with asymmetric algorithms.
-The form and manner of this distribution makes it eligible for export under the License Exception ENC Technology Software Unrestricted (TSU) exception (see the BIS Export Administration Regulations, Section 740.13) for both object code and source code.
+We take security and privacy seriously. All responsible disclosures are welcome and will be reviewed promptly.
 
-License
--------
+---
 
-Copyright 2013 Signal Messenger, LLC
+## Need Help?
 
-Licensed under the GNU AGPLv3: https://www.gnu.org/licenses/agpl-3.0.html
+We currently do not offer direct technical support, but you can find help through:
 
-[community forum]: https://community.signalusers.org
+- Community Forum: [https://community.connexa.africa](https://community.connexa.africa)
+- Developer Telegram Chat: [https://t.me/connexa_dev](https://t.me/connexa_dev)
+- Docs Portal: [https://connexa.africa/docs](https://connexa.africa/docs)
+
+---
+
+## Contributing
+
+We welcome your code, bug reports, and ideas!
+
+### Guidelines
+
+- Search existing issues before creating new ones
+- For large feature requests, join the community discussions first
+- Follow our [CONTRIBUTING.md](CONTRIBUTING.md) guide
+
+### First Time?
+
+Try fixing a small bug to get familiar with the system, then scale up.
+
+---
+
+## Cryptography Notice
+
+This distribution includes cryptographic software. The country in which you currently reside may have restrictions on the import, possession, use, and/or re-export of encryption software.
+
+**BEFORE** using any encryption software, check your country’s laws, regulations, and policies. For international context, visit:
+
+> 🔗 [https://www.wassenaar.org/](https://www.wassenaar.org/)
+
+
+## License
+
+© 2025 Mawutor Foundation.  
+Licensed under the **GNU AGPLv3**
+
+🔗 https://www.gnu.org/licenses/agpl-3.0.html
+
+---
+
+> Built with ❤️ for Africa and the world.
